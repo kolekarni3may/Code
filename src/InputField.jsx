@@ -69,6 +69,7 @@ const InputField = ({
       <label style={{ marginLeft: "10px" }} style={labelStyle}>
         {inputTitle}
       </label>
+
       {renderInput()}
       {error && <span>{errorMessage} </span>}
     </div>
