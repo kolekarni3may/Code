@@ -30,7 +30,7 @@ export default function App() {
       ></InputField>
 
       <button style={{ marginTop: "20px" }} onClick={handleSubmit}>
-        Submit
+        Save
       </button>
     </div>
   );
